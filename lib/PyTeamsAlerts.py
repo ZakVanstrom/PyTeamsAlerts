@@ -39,9 +39,10 @@ def addHookToDirectory(fileName, newHook):
     hooks = pullList(fileName)
     for x in hooks:
         if x == newHook:
-            print(That hook already exists.)
+            print("That hook already exists.")
             return
     hooks.append(newHook)
     return
+
 
 
